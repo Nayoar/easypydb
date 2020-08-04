@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name = 'easypydb',
   packages = ['easypydb'],
-  version = '0.1',
+  version = '0.2',
   license='MIT',
   description = 'Simple and easy-to-use python database',
   author = 'minx28',
   author_email = 'minx8128@gmail.com',
   url = 'https://github.com/minx28/easypydb',
-  download_url = 'https://github.com/minx28/easypydb/archive/v_01.tar.gz',
+  download_url = 'https://github.com/minx28/easypydb/archive/v_02.tar.gz',
   keywords = ['database', 'db', 'easy', 'simple'],
   install_requires=[
           's1db',
