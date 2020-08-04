@@ -39,8 +39,9 @@ If you do want it to load every time you request data:
 
 ```py
 db1.autoload=True
-print(db1) # This will be slightly slower than before, as the database is loaded before the data is returned
+print(db1)
 ```
+This will be slightly slower than before, as the database is loaded before the data is returned.
 
 However, autosave is True by default. Again, you can change it manually:
 
