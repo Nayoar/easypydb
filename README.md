@@ -1,7 +1,7 @@
 # Installation
-
-  pip install easypydb
-
+```
+pip install easypydb
+```
 # Usage
 
 Define a database. We're going to make a database called myData
