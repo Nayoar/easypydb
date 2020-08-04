@@ -4,6 +4,7 @@ Define a database. We're going to make a database called myData
 You can use any variable name, but the argument you pass to the class must be the same each time you want to access this database.
 
 ```py
+from easypydb import DB
 db1=DB("myData")
 ```
 
