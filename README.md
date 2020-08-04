@@ -77,7 +77,7 @@ db1["hello"]="world"
 print(db1)
 # -> {}
 ```
-The database was automatically loaded when we requested the data in line 117, meaning the unsaved data created in line 116 was overridden and lost.
+The database was automatically loaded when we requested the data on line 3, meaning the unsaved data created on line 2 was overridden and lost.
 
 If you need to redefine the entire data, use the .data property:
 
