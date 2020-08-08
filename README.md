@@ -2,6 +2,10 @@
 ```
 pip install easypydb
 ```
+# Token
+
+To use this database, you need a token. Get one [here](https://s1.kognise.dev/token)
+
 # Usage
 
 Define a database. We're going to make a database called myData
@@ -9,7 +13,8 @@ You can use any variable name, but the argument you pass to the class must be th
 
 ```py
 from easypydb import DB
-db1=DB("myData")
+DB_TOKEN="QqylfVTMKfuyOnfdBqcu83TXEyzU4QXApjLxB5HQefurZBExJA0RlvEWP38JnfOmlg3d4ytuqSqAqOM9xeY0dQ=="
+db1=DB("myData",DB_TOKEN)
 ```
 
 You can now use the DB almost exactly like a standard python dictionary:
