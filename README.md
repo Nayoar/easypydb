@@ -8,8 +8,7 @@ To use this database, you need a token. Get one [here](https://s1.kognise.dev/to
 
 # Usage
 
-Define a database. We're going to make a database called myData
-You can use any variable name, but the argument you pass to the class must be the same each time you want to access this database.
+Define a database. We're going to make a database called `myData`. You can use any variable name, but the argument you pass to the class must be the same each time you want to access this database.
 
 ```py
 from easypydb import DB
@@ -39,8 +38,7 @@ If you are using the database in multiple locations, it is often wise to call th
 db1.load()
 ```
 
-This is not done automatically (except when you first initiate the database by calling DB() ), meaning you can access data very quickly without the database having to reload each time you request something.
-If you do want it to load every time you request data:
+This is not done automatically (except when you first initiate the database by calling DB() ), meaning you can access data very quickly without the database having to reload each time you request something. If you do want it to load every time you request data:
 
 ```py
 db1.autoload=True
