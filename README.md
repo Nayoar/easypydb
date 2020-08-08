@@ -18,6 +18,7 @@ db1=DB("myData",DB_TOKEN)
 ```
 
 You can now use the DB almost exactly like a standard python dictionary:
+(to use anything other than the simple methods shown here, instead use the `.data` property of the DB object, which actually IS a dictionary.)
 
 ```py
 db1["hello"]="world"
